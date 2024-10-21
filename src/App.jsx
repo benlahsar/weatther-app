@@ -50,7 +50,7 @@ function Grp204WeatherApp() {
       months[currentDate.getMonth()]
     }`;
     return date;
-  };
+  }
 
   const search = async (event) => {
     if (event.key === "Enter" || event.type === "click") {
